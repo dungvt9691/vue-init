@@ -1,3 +1,63 @@
+Setting Project
+============================
+
+Please pick a preset: 
+```
+  vue-init (vue-router, vuex, sass, babel, eslint) 
+  vue-template (vue-router, vuex, sass, babel, eslint) 
+  default (babel, eslint) 
+❯ Manually select features
+```
+
+? Check the features needed for your project: 
+```
+ ◉ Babel
+ ◯ TypeScript
+ ◯ Progressive Web App (PWA) Support
+ ◉ Router
+ ◉ Vuex
+ ◉ CSS Pre-processors
+ ◉ Linter / Formatter
+ ◯ Unit Testing
+ ◯ E2E Testing
+```
+
+? Use history mode for router? (Requires proper server setup for index fallback 
+in production) (Y/n)
+```
+Y
+```
+
+? Pick a CSS pre-processor (PostCSS, Autoprefixer and CSS Modules are supported 
+by default): 
+```
+  Sass/SCSS (with dart-sass) 
+❯ Sass/SCSS (with node-sass) 
+  Less 
+  Stylus
+```
+
+? Pick a linter / formatter config: 
+```
+  ESLint with error prevention only 
+❯ ESLint + Airbnb config 
+  ESLint + Standard config 
+  ESLint + Prettier 
+```
+
+? Pick additional lint features: (Press `<space>` to select, `<a>` to toggle all, `<i>` to invert selection)
+```
+ ◉ Lint on save
+ ◯ Lint and fix on commit
+```
+
+? Where do you prefer placing config for Babel, PostCSS, ESLint, etc.? 
+```
+❯ In dedicated config files 
+  In package.json 
+```
+
+
 Folder Structure Conventions
 ============================
 
@@ -47,4 +107,3 @@ Folder Structure Conventions
     ├── README.md                   # Default README file
     ├── vue.config.js               # Define config for vue
     └── yarn.lock                   # Auto-generated when running yarn install
-
