@@ -4,7 +4,7 @@ API URL: https://mockup-api.herokuapp.com
 
 ## **SIGN IN**
 
-*POST: /api/v1/auth/signin*
+*POST: /auth/signin*
 
 *Headers:*
 
@@ -18,7 +18,7 @@ API URL: https://mockup-api.herokuapp.com
 
 ## **SIGN UP**
 
-*POST: /api/v1/auth/signup*
+*POST: /auth/signup*
 
 *Headers:*
 
